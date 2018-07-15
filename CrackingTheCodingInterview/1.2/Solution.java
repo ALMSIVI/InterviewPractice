@@ -27,8 +27,8 @@ public class Solution {
   /**
    * If the strings contain non-ASCII characters, it would be best to sort the
    * string as using a count array is space expensive.
+   * Time complexity: O(n logn) since sorting takes O(n logn).
    */
-  // 
   public static boolean checkPermutationUnicode(String a, String b) {
     if (a.length() != b.length() || a == null || b == null) {
       return false;
@@ -47,6 +47,7 @@ public class Solution {
   /**
    * ASCII characters are limited so it is possible to store them into
    * a count array.
+   * Time complexity: O(n) since scanning strings takes O(n).
    */
   public static boolean checkPermutationASCII(String a, String b) {
     if (a.length() != b.length() || a == null || b == null) {
