@@ -1,5 +1,6 @@
 /**
-  * Q1.1(Is Unique): Implement an algorithm to determine if a string has all unique characters. What if you cannot use aditional data structures?
+  * Q1.1(Is Unique): Implement an algorithm to determine if a string has all
+  * unique characters. What if you cannot use aditional data structures?
   */
  
 import java.util.HashSet;
@@ -14,7 +15,9 @@ public class Solution {
     test(null);
   }
   
-  // I suppose the string might not be ASCII encoded. Therefore, solutions given by the book would be inappropriate as there are far more characters in Unicode.
+  // I suppose the string might not be ASCII encoded. Therefore, solutions
+  // given by the book would be inappropriate as there are far more characters
+  // in Unicode.
   // Also, I suppose that if input is null the method would return false.
   
   /**
@@ -57,6 +60,7 @@ public class Solution {
    * Used to test the solution.
    */
   public static void test(String input) {
-    System.out.println(input + " " + isUniqueWithDataStructure(input) + " " + isUniqueWithoutDataStructure(input));
+    System.out.println(input + " " + isUniqueWithDataStructure(input) + " " +
+      isUniqueWithoutDataStructure(input));
   }
 }
