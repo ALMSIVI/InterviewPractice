@@ -1,19 +1,13 @@
 /**
-  * Q2.2(Return Kth to Last): Implement an algorithm to find the kth to last of
-  * a singly linked list.
-  */
+ * Q2.2(Return Kth to Last): Implement an algorithm to find the kth to last of
+ * a singly linked list.
+ */
 public class Solution {
   public static void main(String[] args) {
-    LinkedListNode[] nodes = new LinkedListNode[10];
-    nodes[9] = new LinkedListNode(9);
-    for (int i = 8; i >= 0; i--) {
-      nodes[i] = new LinkedListNode(i);
-      // singly linked list so no setNext() which will set prev
-      nodes[i].next = nodes[i + 1];
-    }
-
+    int[] array = {1, 2, 3 ,4, 5, 6, 7, 8, 9, 10};
+    LinkedListNode node = LinkedListUtil.toSinglyLinkedList(array);
     for (int i = 1; i <= 10; i++) {
-      test(nodes[0], i);
+      test(node, i);
     }
   }
   

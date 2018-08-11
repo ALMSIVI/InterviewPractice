@@ -1,7 +1,7 @@
 /**
-  * Q1.2(Check permutation): Give ntwo strings, write a method to decide if one
-  * is a permutation of the other.
-  */
+ * Q1.2(Check permutation): Give ntwo strings, write a method to decide if one
+ * is a permutation of the other.
+ */
 import java.util.Arrays;
 
 public class Solution {

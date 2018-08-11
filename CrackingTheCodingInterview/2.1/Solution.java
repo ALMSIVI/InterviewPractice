@@ -1,7 +1,7 @@
 /**
-  * Q2.1(Remove Dups): Write code to remove duplicatees from an unsorted linked
-  * list. How would you solve this problem if a temporary bufer is not allowed?
-  */
+ * Q2.1(Remove Dups): Write code to remove duplicatees from an unsorted linked
+ * list. How would you solve this problem if a temporary bufer is not allowed?
+ */
 import java.util.HashSet;
 
 public class Solution {

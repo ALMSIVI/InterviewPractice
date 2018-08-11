@@ -1,7 +1,7 @@
 /**
-  * Q1.1(Is Unique): Implement an algorithm to determine if a string has all
-  * unique characters. What if you cannot use aditional data structures?
-  */
+ * Q1.1(Is Unique): Implement an algorithm to determine if a string has all
+ * unique characters. What if you cannot use aditional data structures?
+ */
  
 import java.util.HashSet;
 import java.util.Arrays;

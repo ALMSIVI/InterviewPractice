@@ -1,6 +1,6 @@
 /**
-  * This is the solution template.
-  */
+ * This is the solution template.
+ */
 public class Solution {
   public static void main(String[] args) {
     
