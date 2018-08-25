@@ -8,6 +8,9 @@ public class LinkedListUtil {
    * @return the head of the converted linked list
    */
   public static LinkedListNode toSinglyLinkedList(int[] array) {
+    if (array == null || array.length == 0) { // edge case
+      return null;
+    }
     LinkedListNode[] nodes = new LinkedListNode[array.length];
     nodes[array.length - 1] = new LinkedListNode(array[array.length - 1]);
     for (int i = array.length - 2; i >= 0; i--) {
