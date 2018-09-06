@@ -68,4 +68,16 @@ public class LinkedListUtil {
     }
     return a.last;
   }
+
+  /**
+   * Gets the nth element of the linked list node.
+   * Adds edge case checks.
+   */
+  public static LinkedListNode getNth(LinkedListNode a, int n) {
+    while (n > 0 && a != null) {
+      a = a.next;
+      n--;
+    }
+    return a;
+  }
 }
